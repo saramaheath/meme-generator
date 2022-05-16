@@ -27,6 +27,7 @@ function addMeme(img, top, bottom){
     newMemeBotText.className = 'bottom';
     let removeButton = document.createElement('BUTTON');
     removeButton.className = 'button';
+    removeButton.textContent = 'remove';
 
     removeButton.addEventListener('click', function(){
         console.log('you clicked the button');
